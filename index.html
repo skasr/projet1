@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel Élégance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Hôtel Élégance Skass</h1>
+        </div>
+        <ul class="nav-liens">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#chambres">Chambres</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-filtre">
+        <div class="conteneur-filtre">
+            <input type="text" id="search-bar" placeholder="Recherchez une chambre...">
+            <select id="options-tri">
+                <option value="prix">Prix</option>
+                <option value="nouveaute">Nouveauté</option>
+                <option value="pertinence">Pertinence</option>
+            </select>
+        </div>
+    </section>
+
+    <section id="chambres">
+        <h2>Nos Chambres</h2>
+        <div class="liste-chambres">
+            <div class="chambre">
+                <img src="hotel111.jpg" alt="Chambre Luxe">
+                <div class="info-chambre">
+                    <h3>Chambre Luxe</h3>
+                    <p>À partir de 150€/nuit</p>
+                </div>
+            </div>
+            <div class="chambre">
+                <img src="hotel2.png" alt="Chambre Confort">
+                <div class="info-chambre">
+                    <h3>Chambre Confort</h3>
+                    <p>À partir de 100€/nuit</p>
+                </div>
+            </div>
+            <div class="chambre">
+                <img src="hotel3.jpg" alt="Chambre Économique">
+                <div class="info-chambre">
+                    <h3>Chambre Économique</h3>
+                    <p>À partir de 80€/nuit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Hôtel Élégance SK. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
